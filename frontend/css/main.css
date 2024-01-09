@@ -2,7 +2,7 @@ main {
   padding: 30px 20px 100px 20px;
 }
 
-.items-list {
+.item-list {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -10,9 +10,9 @@ main {
   padding: 20px 0 20px 0;
 }
 
-.items-list__img {
-  width: 50px;
-  height: 50px;
+.item-list__img {
+  width: 150px;
+  height: 150px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   margin-right: 20px;
@@ -22,11 +22,11 @@ main {
   overflow: hidden;
 }
 
-.items-list__img img {
+.item-list__img img {
   width: 100%;
   height: 100%;
 }
-.items-list__info {
+.item-list__info {
   height: 130px;
   display: flex;
   flex-direction: column;
